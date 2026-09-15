@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 nav ul, footer ul {
-        font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+        font-family: Helvetica, Arial, sans-serif;
         padding: 0px;
         font-weight: bold;
 }
@@ -34,5 +34,18 @@ nav ul li a:hover, footer ul li a:hover {
 }
 
 footer {
+        border-top: 1px solid #d5d5d5;
+}
+
+table.intro {
+        border-spacing: 20px;
+}
+
+table.projects, table.skills {
+        border: 1px solid #767676;
+        border-spacing: 10px;
+}
+
+table.projects tr + tr td {
         border-top: 1px solid #d5d5d5;
 }
